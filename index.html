@@ -1,0 +1,60 @@
+<html lang="pt-br">
+
+<head>
+  <title>Joker's Cassino</title>
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <div class="vitoria" id="vitoria">
+  </div>
+  <div class="derrota" id="derrota">
+  </div>
+  <div class="regras">
+    <h1>Regras</h1>
+    <hr>
+    <p>.Sorteie 1 carta</p>
+    <p>.Escolha se ela é menor ou maior<br /> que a próxima carta</p>
+    <p>.Caso haja empate, a derrota é<br /> contabilizada para você.
+    <p>.Você começa com 100 fichas, cada <br /> partida vale 25 fichas</p>
+    <p>.O Joker é Carta Especial,<br /> encontrando ela é adicionados 200<br /> fichas a sua carteira
+      <hr>
+    <h2> Boa diversão! </h2>
+  </div>
+  <div class="moedas">
+    <table style="width:30%">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Fichas</th>
+          <th>Vitórias</th>
+          <th>Derrotas</th>
+          <th>Joker's</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaMoedas">
+        <h4 id="saldo"></h4>
+  </div>
+
+  <div class="container">
+    <div class="cassino">
+      <h1><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="" style="box-shadow: 3px 3px 5px black; max-height: 40px"></h1><br /><br />
+    </div>
+    <div class="cassino2">
+      <h2 id="jogador"><img src="https://static.wixstatic.com/media/470852_8d113ff68e36434b9a7558c364cb42ac~mv2.gif"></h2>
+      <br />
+      <button onclick="sortear()" id="btn">Sortear Cartas</button><br /><br />
+    </div>
+    <div class="cassino3">
+      <h3 id="maquina"></h3>
+      <br /> <br />
+      <h1 id="resultado"></h1>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

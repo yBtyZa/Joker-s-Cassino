@@ -1,0 +1,165 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRATy4WOSL13eBBc2I8qaUI8nyh5UGpWQuvAg&usqp=CAU");
+  background-color: #000000;
+  background-size: cover;
+  background-position: all;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-height: 190px;
+  border-radius: 20px;
+  transition: 5s;
+}
+
+.regras {
+  position: absolute;
+  color: #fff;
+  text-align: left;
+  box-shadow: 5px 5px 5px steelblue;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2em;
+  border-radius: 19px;
+}
+h1 {
+  color: #0ff;
+  text-shadow: 3px 3px 10px black;
+}
+h2 {
+  color: #0ff;
+  text-shadow: 3px 3px 10px black;
+}
+
+table {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 5px 5px 5px steelblue;
+  margin: 0;
+  padding: 0;
+}
+
+.moedas tr,
+td {
+  border: solid 1px #808080;
+  color: #fff;
+  text-shadow: 1px 1px 5px #fff;
+}
+th {
+  text-shadow: 1px 1px 5px #fff;
+  color: #0ff;
+}
+.moedas h4 {
+  position: relative;
+  right: -35%;
+  top: 120px;
+  color: red;
+}
+button {
+  background-color: #800000;
+  color: white;
+  border: none;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px steelblue;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: steelblue;
+  transition: 0.3s;
+}
+.vitoria {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+}
+.vitoria img {
+  position: relative;
+  max-height: 1000px;
+  width: 100%;
+}
+.cassino2 {
+  position: absolute;
+  float: left;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.cassino3 {
+  position: relative;
+  width: 93%;
+  margin: 90px;
+  padding: 30px;
+}
+.derrota {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 800px;
+  margin 
+}
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLShcyirIjfx6sKG2609cYLFesoyDm1xOoGw&usqp=CAU");
+  }
+  .regras {
+    font-size: 5px;
+    border-radius: 5px;
+  }
+  .moedas {
+    font-size: 5px;
+  }
+  .moedas img {
+    width: 10px;
+  }
+  .container button {
+    font-size: 5px;
+    border-radius: 5px;
+  }
+  .cassino img {
+    width: 30px;
+  }
+  .cassino2 img {
+    width: 50px;
+    border-radius: 5px;
+  }
+  .cassino2 {
+    position: absolute;
+    top: 30%;
+  }
+  .cassino3 img {
+    width: 50px;
+    border-radius: 5px;
+  }
+  .cassino3 {
+    position: absolute;
+    top: 30%;
+    margin: 15px;
+    padding: 15px;
+  }
+  .vitoria img {
+    height: 100vh;
+    width: 100%;
+  }
+  .derrota {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 300px;
+  }
+  #saldo {
+    position: relative;
+    top: 50px;
+  }
+}
